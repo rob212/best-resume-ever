@@ -1,29 +1,29 @@
 <template>
-  <div class="page-wrapper">
-    <div class="page" :id="$route.params.resumeid">
-      <div class="page-inner">
-        <component :is="$route.params.resumeid"></component>
-      </div>
+<div class="page-wrapper">
+  <div class="page" :id="$route.params.resumeid">
+    <div class="page-inner">
+      <component :is="$route.params.resumeid"></component>
     </div>
   </div>
+</div>
 </template>
 
 <script>
-import Vue from "vue";
-import "../resumes/resumes";
-export default Vue.component("resume", {
-  name: "app"
+import Vue from 'vue';
+import '../resumes/resumes';
+export default Vue.component('resume', {
+    name: 'app'
 });
 </script>
 
 <style scoped>
-.page-inner {
+.page-inner{
   height: 100%;
   width: 100%;
 }
 .page-wrapper {
   overflow-x: hidden;
-  background: #cccccc;
+  background: #CCCCCC;
   margin: 0;
   padding: 0;
   -webkit-print-color-adjust: exact;
@@ -39,7 +39,7 @@ export default Vue.component("resume", {
   background: white;
   position: relative;
   width: 21cm;
-  height: 80.68cm;
+  height: 40.42cm;
   display: block;
   page-break-after: auto;
   overflow: hidden;

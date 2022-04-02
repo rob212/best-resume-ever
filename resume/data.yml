@@ -1,93 +1,111 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Robert
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: McBryde
+about: Experienced Software Engineer and Developer in Test with a 2:1 degree in Computer Science and 16 years industry experience.
+position: Software Development Coach
 
 birth:
-  year: 1990
-  location: New York
+  year: 1983
+  location: Edinburgh
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Registers of Scotland
+  position: Software Dev/Test Coach
+  timeperiod: since January 2020
+  description: Deliver hands on coaching for the IT Dev community through workshop creation, one-to-one development mentoring sessions and ownership of the testing Community of Practice. Collaboration with fellow coaches and agile product teams to improve the ability to deliver via a DevOps mindset. Involved in the ongoing development of the RoS "grow our own" programme contributing to the creation of the "learning pathways" and multiple initiatives to inspire personal growth within the IT Dev community. Assisting with internal and external recruitment within IT Dev. 
+  website: https://www.ros.gov.uk/
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Registers of Scotland
+  position: Senior QA/Dev in Test
+  timeperiod: February 2018 - December 2019
+  description: Assisted in the design and implementation of modern test automation practices within the Mapping domain and provided coaching to junior developers. Contributed to the delivery of an automated pipeline for new APIs and ETL processes. Encouraged collaborative working via pairing, mobbing and promoting the division of work into small deliverables to enable increased frequency of deployments.  
+  website: https://www.ros.gov.uk/
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Yavi
+  position: Software Engineer
+  timeperiod: July 2015 - January 2018
+  description: As a founding member of Yavi, my role involved a wide variety of responsibilites in addition to the daily engineering of our products. I was actively involved in the QA within our agile team and oversaw the QA hiring process within the company. We operated using the Lean Startup Methodology to deliver iOS and Android apps hosted in AWS on Java backend with accompanying Angular web clients. 
+
+- company: Kotikan
+  position: Software Engineer
+  timeperiod: December 2013 - July 2015
+  description: I worked on numerous web and mobile projects for a diverse client base as part of Kotikan, an award-winning app development agency. Product teams operated using Scrum, utilising TDD, BDD and the use of SOLID principles across codebases. Technologies included Java, SQL, Apache Wicket, Android, iOS, Angular JS and Ruby. As part of my time at Kotikan I worked in a product exploration team which eventually became Yavi when Kotikan was acquired by FanDuel in 2015.
+
+- company: CGI
+  position: Leading Engineer
+  timeperiod: September 2013 - December 2013
+  description: I worked as a Lead Engineer in the early stages of a large public sector project. The technologies included Java, SOAP, Redhat Camel, JBOSS, Fuse, TestNG, EasyMock and Selenium Webdriver.
+  website: https://www.cgi.com/en
+
+- company: Standard Life
+  position: Software Engineer
+  timeperiod: May 2011 - August 2013
+  description: I worked on the Fix 'n' Flex and Lifelens employee benefits web platforms. I was responsible for the ongoing development of new features and bug fixing within the existing legacy systems, primarily on payroll, reporting and data imports. Technologies included SQL, Java and Apache Wicket.
+  website: https://www.standardlife.co.uk/
+
+- company: Vebnet
+  position: Technical Support Analyst
+  timeperiod: February 2006 - May 2011
+  description: As a member of a small technical support team, I was responsible for providing both internal and external support to our System Administrators, Business Analysts, partners and clients. This entailed the resolution of bugs, maintenance of documentation and providing internal and external training. Technologies included Java, SQL, JSPs. Vebnet was acquired by Standard Life in May 2011.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: BSc (Hons) 2:1 Computer Science - Heriot Watt University, Edinburgh
+  timeperiod: 2001 - 2005
+  description: Including Programming & Software Engineering, Data Structure & Algorithms, Mathematics, Databases and Compiling Techniques.
+  website: https://www.hw.ac.uk/
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
+- name: Java8+
   level: 99
-- name: CSS3
-  level: 95
 - name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
+  level: 95
 - name: TypeScript
-  level: 80
-- name: ES.Next
+  level: 97
+- name: React
   level: 70
+- name: Python
+  level: 60
+- name: Spring
+  level: 60
+- name: AWS
+  level: 80
+- name: Cypress
+  level: 70
+- name: Coaching
+  level: 99
+- name: TDD
+  level: 100
+- name: REST
+  level: 100
 - name: Docker
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: WCAG
+  level: 99
+- name: OWASP
+  level: 75
+- name: GDS
+  level: 75
+- name: CI/CD
+  level: 75
+- name: JMeter
+  level: 80
+- name: iOS
+  level: 80
+knowledge: I empower testers and developers through coaching to enable their growth and knowledge of best practice engineering principles. 
 
-projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
-
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: robertmcbryde83@gmail.com
+  phone: 07742505479
+  street: Edinburgh
+  city: Edinburgh
+  website: 
+  github: rob212
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
