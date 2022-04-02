@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import Vue from "vue";
-import "../resumes/resumes";
-export default Vue.component("resume", {
-  name: "app"
+import Vue from 'vue';
+import '../resumes/resumes';
+export default Vue.component('resume', {
+    name: 'app'
 });
 </script>
 

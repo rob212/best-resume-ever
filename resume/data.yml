@@ -88,7 +88,7 @@ skills:
   level: 99
 - name: OWASP
   level: 75
-- name: GDS
+- name: BDD
   level: 75
 - name: CI/CD
   level: 75
@@ -104,7 +104,7 @@ contact:
   phone: 07742505479
   street: Edinburgh
   city: Edinburgh
-  website: 
+  website: https://wehandletheweb.com/
   github: rob212
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
